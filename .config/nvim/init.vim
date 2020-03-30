@@ -14,6 +14,7 @@ Plug 'morhetz/gruvbox' " Gruvbox theme
 " === COMPLETION ===
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'alvan/vim-closetag'    " Auto close HTML tags
+Plug 'jiangmiao/auto-pairs'  " Auto close pairs like (), {}, [], or ''
 
 " === SYNTAX HIGHLIGHTING ===
 Plug 'posva/vim-vue'
