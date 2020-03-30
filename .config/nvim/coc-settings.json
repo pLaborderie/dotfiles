@@ -1,4 +1,3 @@
 {
-  "coc.preferences.formatOnType": true,
-  "coc.preferences.formatOnTypeFiletypes": [".vue"]
+  "coc.preferences.formatOnSaveFiletypes": ["*"]
 }
