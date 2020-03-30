@@ -26,6 +26,11 @@ Plug 'scrooloose/nerdtree'		" NERD Tree
 Plug 'Xuyuanp/nerdtree-git-plugin' 	" show git status in Nerd tree
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } " Denite file search
 
+" === Fluff ===
+Plug 'itchyny/lightline.vim' "Lightline status bar
+Plug 'ap/vim-css-color' " CSS color previews
+Plug 'frazrepo/vim-rainbow' " Color pairs
+
 " === GIT INTEGRATION ===
 Plug 'airblade/vim-gitgutter' " Git changes in sidebar (gutter)
 Plug 'tpope/vim-fugitive' " Git client in vim
@@ -35,6 +40,11 @@ call plug#end()
 " Active theme :
 colorscheme gruvbox
 
+" Activate rainbow
+let g:rainbow_active = 1
+
+" Remove VIM mode show (in lightline already, duplicated)
+set noshowmode
 
 " TextEdit might fail if hidden is not set.
 set hidden
