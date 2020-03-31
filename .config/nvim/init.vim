@@ -25,6 +25,8 @@ Plug 'maxmellon/vim-jsx-pretty' " ReactJS highlighting
 Plug 'scrooloose/nerdtree'		" NERD Tree
 Plug 'Xuyuanp/nerdtree-git-plugin' 	" show git status in Nerd tree
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } " Denite file search
+Plug 'mcchrish/nnn.vim' " NNN file manager in vim 
+Plug 'christoomey/vim-tmux-navigator' " Navigating between TMUX screens from VIM
 
 " === Fluff ===
 Plug 'itchyny/lightline.vim' "Lightline status bar
@@ -41,7 +43,7 @@ call plug#end()
 colorscheme gruvbox
 
 " Activate rainbow
-let g:rainbow_active = 1
+" let g:rainbow_active = 1
 
 " Remove VIM mode show (in lightline already, duplicated)
 set noshowmode
